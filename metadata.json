@@ -1,0 +1,32 @@
+{
+  "id": "cluster-state",
+  "name": "1D Cluster State",
+  "category": "fundamentals",
+  "description": "Prepare a 4-qubit linear cluster state for measurement-based quantum computation.",
+  "long_description": "Cluster states are highly entangled resource states for measurement-based (one-way) quantum computation. In this model, the entire computation is driven by single-qubit measurements on a pre-prepared cluster state. The 1D cluster state on N qubits is created by placing all qubits in |+\u27e9 and applying CZ gates between nearest neighbours.",
+  "difficulty": "intermediate",
+  "qubit_count": 4,
+  "clbit_count": 4,
+  "gate_count": 7,
+  "depth": 5,
+  "tags": [
+    "cluster-state",
+    "measurement-based",
+    "resource-state",
+    "fundamentals"
+  ],
+  "circuit_formats": [
+    "qasm2"
+  ],
+  "source_file": "circuit.qasm",
+  "expected_output": "Entangled 4-qubit cluster state; correlated measurement outcomes",
+  "references": [
+    {
+      "title": "Raussendorf & Briegel (2001). A One-Way Quantum Computer. PRL 86, 5188",
+      "url": "https://doi.org/10.1103/PhysRevLett.86.5188"
+    }
+  ],
+  "author": "OpenQC Community",
+  "license": "MIT",
+  "version": "1.0.0"
+}
