@@ -1,0 +1,28 @@
+{
+  "slug": "cluster-state",
+  "name": "Cluster State Preparation",
+  "version": "1.0.0",
+  "author": "iniestarchen",
+  "license": "Apache-2.0",
+  "description": "Prepare a 4-qubit linear cluster state for measurement-based quantum computation.",
+  "industries": [
+    "education"
+  ],
+  "techniques": [
+    "gate"
+  ],
+  "difficulty": "intermediate",
+  "computation_model": "gate",
+  "algorithm_type": "circuit",
+  "qubit_count": 4,
+  "tags": [
+    "cluster-state",
+    "mbqc",
+    "entanglement"
+  ],
+  "access": "open",
+  "source": "official",
+  "metadata": {
+    "year_introduced": 2001
+  }
+}
